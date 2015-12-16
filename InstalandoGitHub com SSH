@@ -1,0 +1,37 @@
+Instalando Git Hub no Linux
+---------------------------------------------------------------------------------------
+$ yum install git-core
+Ou se você estiver em uma distribuição baseada no Debian, como o Ubuntu, use o apt-get:
+
+$ apt-get install git
+
+---------------------------------------------------------------------------------------
+Configurando Commit no git
+
+No Terminal :
+
+git config --global user.name "Digite seu Nome"
+git config --global user.email "Digite seu email"
+---------------------------------------------------------------------------------------
+
+Configurando SSH no computador
+
+ssh-keygen -C "email cadastrado no github" -t rsa
+
+****Deixar em branco as coisas que perguntar****
+
+Abrindo SSH em editor de texto
+
+gedit ^/.ssh/id_rsa.pub
+
+---------------------------------------------------------------------------------------
+
+Colocando SSH no site do github
+
+Estando logado , acessar https:github.com/account/ssh
+
+Clique "ADD SSH key"
+
+Cole a chave q copiou do gedit
+
+"Add Key"
