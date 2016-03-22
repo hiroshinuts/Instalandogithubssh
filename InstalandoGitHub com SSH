@@ -22,7 +22,7 @@ ssh-keygen -C "email cadastrado no github" -t rsa
 
 Abrindo SSH em editor de texto
 
-gedit ^/.ssh/id_rsa.pub
+gedit ~/.ssh/id_rsa.pub
 
 ---------------------------------------------------------------------------------------
 
